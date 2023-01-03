@@ -27,7 +27,7 @@ export const Presetantion: React.FC = () => {
           onClick={handleRedirectContactForm}
           className="w-[100%] lg:w-[280px] h-[45px] uppercase bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f] mt-[40px] lg:mt-[100px] text-black text-[18px] font-bold rounded-3xl hover:scale-105 ease-in-out duration-200 "
         >
-          QUERO MEU SOTWARE
+          AGENDAR CONSULTORIA
         </button>
       </div>
       <div className="w-full lg:h-[70%] flex justify-center items-center ">

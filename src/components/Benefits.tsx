@@ -31,7 +31,7 @@ export const Benefits: React.FC = () => {
           onClick={handleRedirectContactForm}
           className="w-[100%] lg:w-[280px] h-[45px] hidden lg:block lg:absolute lg:right-10 mt-[20px] uppercase bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f] text-black text-[18px] font-bold rounded-3xl hover:scale-105 ease-in-out duration-200 "
         >
-          QUERO MEU SOTWARE
+          AGENDAR CONSULTORIA
         </button>
       </div>
 
