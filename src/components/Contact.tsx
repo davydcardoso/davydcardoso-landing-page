@@ -12,7 +12,7 @@ export const Contact: React.FC = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_yu1af5f",
+        "service_27tlqjh",
         "template_7aar1lq",
         //@ts-ignore
         form.current,
@@ -25,7 +25,8 @@ export const Contact: React.FC = () => {
           });
         },
         (error) => {
-          toast.error(`Houve um erro ao enviar email | Detalhes: ${error}`);
+          console.log(error)
+          toast.error(`Houve um erro ao enviar email`);
         }
       );
   };
