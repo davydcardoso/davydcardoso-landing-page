@@ -44,7 +44,7 @@ export const Services: React.FC = () => {
 
         <div className="w-full min-h-screen bg-primary grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-2 p-4  ">
           <div className="w-[90%] lg:w-full h-full flex flex-col items-center justify-center gap-4 ">
-            <div className="w-full lg:w-[300px] h-[180px] items-center p-3 hover:cursor-pointer hover:scale-105 ease-in-out duration-200 rounded-2xl bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f]   ">
+            <div className="w-full lg:w-[300px] h-[180px] items-center p-3 hover:cursor-pointer hover:scale-105 ease-in-out duration-200 rounded-xl bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f]   ">
               <div className="w-full h-[40px] gap-2 flex flex-row o">
                 <FaMobileAlt color="#000" size={30} />
                 <h1 className="text-black text-[18px] font-bold ">Mobile</h1>
@@ -58,7 +58,7 @@ export const Services: React.FC = () => {
               </div>
             </div>
 
-            <div className="w-full lg:w-[300px] h-[180px] p-3 hover:cursor-pointer hover:scale-105 ease-in-out duration-200 rounded-2xl bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f] lg:mr-[120px]  ">
+            <div className="w-full lg:w-[300px] h-[180px] p-3 hover:cursor-pointer hover:scale-105 ease-in-out duration-200 rounded-xl bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f] lg:mr-[120px]  ">
               <div className="w-full h-[40px] gap-2 flex flex-row items-center">
                 <AiFillApple color="#000" size={30} />
                 <h1 className="text-black text-[18px] font-bold ">
@@ -74,7 +74,7 @@ export const Services: React.FC = () => {
               </div>
             </div>
 
-            <div className="w-full lg:w-[300px] h-[180px] p-3 hover:cursor-pointer hover:scale-105 ease-in-out duration-200 rounded-2xl bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f]   ">
+            <div className="w-full lg:w-[300px] h-[180px] p-3 hover:cursor-pointer hover:scale-105 ease-in-out duration-200 rounded-xl bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f]   ">
               <div className="w-full h-[40px] gap-2 flex flex-row items-center">
                 <RiWifiOffLine color="#000" size={30} />
                 <h1 className="text-black text-[18px] font-bold ">
@@ -92,7 +92,7 @@ export const Services: React.FC = () => {
           </div>
 
           <div className="w-[90%] lg:w-full h-full flex flex-col items-center justify-center gap-4 ">
-            <div className="w-full lg:w-[300px] h-[180px] p-3 hover:cursor-pointer hover:scale-105 ease-in-out duration-200 rounded-2xl bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f]   ">
+            <div className="w-full lg:w-[300px] h-[180px] p-3 hover:cursor-pointer hover:scale-105 ease-in-out duration-200 rounded-xl bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f]   ">
               <div className="w-full h-[40px] gap-2 flex flex-row items-center">
                 <AiFillChrome color="#000" size={30} />
                 <h1 className="text-black text-[18px] font-bold ">
@@ -109,7 +109,7 @@ export const Services: React.FC = () => {
               </div>
             </div>
 
-            <div className="w-full lg:w-[300px] h-[180px] p-3 hover:cursor-pointer hover:scale-105 ease-in-out duration-200 rounded-2xl bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f] lg:ml-[120px]  ">
+            <div className="w-full lg:w-[300px] h-[180px] p-3 hover:cursor-pointer hover:scale-105 ease-in-out duration-200 rounded-xl bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f] lg:ml-[120px]  ">
               <div className="w-full h-[40px] gap-2 flex flex-row items-center">
                 <BiMobileVibration color="#000" size={30} />
                 <h1 className="text-black text-[18px] font-bold ">
@@ -125,7 +125,7 @@ export const Services: React.FC = () => {
               </div>
             </div>
 
-            <div className="w-full lg:w-[300px] h-[180px] p-3 hover:cursor-pointer hover:scale-105 ease-in-out duration-200 rounded-2xl bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f]   ">
+            <div className="w-full lg:w-[300px] h-[180px] p-3 hover:cursor-pointer hover:scale-105 ease-in-out duration-200 rounded-xl bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f]   ">
               <div className="w-full h-[40px] gap-2 flex flex-row items-center">
                 <MdSecurity color="#000" size={30} />
                 <h1 className="text-black text-[18px] font-bold ">Segurança</h1>

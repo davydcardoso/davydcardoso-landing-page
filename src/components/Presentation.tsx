@@ -10,22 +10,25 @@ export const Presetantion: React.FC = () => {
   };
 
   return (
-    <div className="w-full mih-h-[90vh] pt-[100px] grid grid-cols-1 lg:grid-cols-2 items-center gap-4 p-4   ">
+    <div className="w-full min-h-[90vh] lg:h-[90vh] pt-[100px] grid grid-cols-1 lg:grid-cols-2 items-center gap-4 p-4   ">
       <div className="w-full min-h-[70%] flex flex-col items-center lg:items-start p-6 text-white ">
-        <p className="text-center text-3xl  ">
-          <b className="text-[40px] uppercase font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-secondary via-[#48F1AC] to-[#53f79f]  ">
-            Software Engineer
+        <p className="text-xl text-center  ">
+          <b className="text-[40px] uppercase font-extrabold  text-transparent bg-clip-text bg-gradient-to-r from-secondary via-[#48F1AC] to-[#53f79f]  ">
+            FullStack Developer
           </b>
           <br />
           <br />
-          Desenvolvo software há mais de 5 anos. Sou habilidoso em uma ampla
-          variedade de linguagens de programação e frameworks, incluindo Java,
-          TypeScript e JavaScript, todos os Ambientes React.
+          Sou um desenvolvedor experiente em Javascript e Typescript, com mais de 4 anos de sólida experiência na área de programação.
+          Durante minha carreira, adquiri expertise em diversas tecnologias, destacando-me em frameworks como ReactJS, React Native, NextJS, NestJS e Java.
+          <br />
+          <br />
+          Minha paixão pela resolução de problemas e meu compromisso com a excelência técnica refletem-se no meu trabalho diário.
+          Ao longo dos anos, participei ativamente no desenvolvimento de soluções inovadoras e eficientes, proporcionando experiências digitais de alta qualidade.
         </p>
 
         <button
           onClick={handleRedirectContactForm}
-          className="w-[100%] lg:w-[280px] h-[45px] uppercase bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f] mt-[40px] lg:mt-[100px] text-black text-[18px] font-bold rounded-3xl hover:scale-105 ease-in-out duration-200 "
+          className="w-[100%] lg:w-[280px] h-[45px] uppercase bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f] mt-[40px] lg:mt-[100px] text-black text-[18px] font-bold rounded-xl hover:scale-105 ease-in-out duration-200 "
         >
           AGENDAR CONSULTORIA
         </button>

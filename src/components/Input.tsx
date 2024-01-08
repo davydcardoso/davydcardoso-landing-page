@@ -31,7 +31,7 @@ export const Input: React.FC<Props> = ({
           onChange ? (event) => onChange(event.target.value) : undefined
         }
         required={required}
-        className="w-[100%] h-[47px] bg-[#262525] rounded-3xl p-4 text-white "
+        className="w-[100%] h-[47px] bg-[#262525] rounded-xl p-4 text-white "
       />
     </div>
   );

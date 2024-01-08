@@ -10,8 +10,6 @@ export const Contact: React.FC = () => {
 
   const sendEmail = (e: FormEvent) => {
     e.preventDefault();
-
-    console.log(e);
     emailjs
       .sendForm(
         "service_yu1af5f",
@@ -76,14 +74,14 @@ export const Contact: React.FC = () => {
               cols={30}
               required
               name="message"
-              className="w-[100%] bg-[#262525] rounded-3xl p-4 text-white "
+              className="w-[100%] bg-[#262525] rounded-xl p-4 text-white "
             ></textarea>
           </div>
 
           <div className="w-full flex items-center justify-center  ">
             <button
               type="submit"
-              className="w-[85%] lg:w-[280px] h-[45px] uppercase bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f] text-black text-[18px] font-bold rounded-3xl hover:scale-105 ease-in-out duration-200 "
+              className="w-[85%] lg:w-[280px] h-[45px] uppercase bg-gradient-to-r from-[#22DBB6] via-[#48F1AC] to-[#53f79f] text-black text-[18px] font-bold rounded-xl hover:scale-105 ease-in-out duration-200 "
             >
               Enviar
             </button>
