@@ -42,12 +42,12 @@ export const Header: React.FC = () => {
         <img
           alt="Davyd Cardoso"
           src={require("../assets/images/logo.png")}
-          className="w-[180px]  "
+          className="w-[200px]  "
         />
       </div>
 
       <div className="w-[60%] h-full hidden lg:flex flex-row items-center justify-center ">
-        <ul className="text-white  flex flex-row gap-3  ">
+        <ul className="text-white  text-[20px] flex flex-row gap-3  ">
           <li
             onClick={handleScrollToTop}
             className="hover:cursor-pointer hover:text-secondary ease-in-out duration-200   "
