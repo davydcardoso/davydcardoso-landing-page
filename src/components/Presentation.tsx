@@ -19,7 +19,7 @@ export const Presetantion: React.FC = () => {
           <br />
           <br />
           Sou um desenvolvedor experiente em JavaScript e TypeScript, com mais de 4 anos de sólida experiência na área de programação.
-          Durante minha carreira, adquiri experiência em diversas tecnologias, destacando-me em frameworks como ReactJS, React Native, Next.js, Nest.js e Java.
+          Durante minha carreira, adquiri experiência em diversas tecnologias, destacando-me em frameworks como ReactJS, React Native, Next.js, Nest.js.
           <br />
           <br />
           Minha paixão pela resolução de problemas e meu compromisso com a excelência técnica refletem-se no meu trabalho diário.
